@@ -1,0 +1,17 @@
+print("Welcome to Nix's Addition Calculator")
+print("Enter a number after the prompt firstnumber and hit enter,")
+print("then enter a number after secondnumber and hit enter and so on.")
+print("Enter up to 10 digits. If less than 10 enter 0 for excess #s")
+x = input('firstnumber:')
+y = input('secondnumber:')
+z = input('thirdnumber: ')
+a = input('fourthnumber: ')
+b = input('fifthnumber: ')
+c = input('sixthnumber: ')
+d = input('seventhnumber: ')
+e = input('eighthnumber: ')
+f = input('ninthnumber: ')
+g = input('tenthnumber: ')
+print(
+    int(x) + int(y) + int(z) + int(a) + int(b) + int(c) + int(d) + int(e) +
+    int(f) + int(g))
